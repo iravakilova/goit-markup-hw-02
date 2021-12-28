@@ -36,8 +36,11 @@ body {
 .header-item {
   font-weight: 500;
   font-size: var(--font-size-primary);
-  line-height: calc(16px / var(--font-size-primary));
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+}
+.header-contact {
+  color: var(--color-text-secondary);
 }
 .header-item:hover,
 .header-item:focus {
@@ -64,7 +67,7 @@ body {
   background: var(--accent-color);
   font-weight: 700;
   font-size: var(--font-size-secondary);
-  line-height: calc(30px / var(--font-size-secondary));
+  line-height: calc(30 / 16);
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -77,20 +80,20 @@ body {
 .features-title {
   font-weight: 700;
   font-size: var(--font-size-primary);
-  line-height: calc(16px / var(--font-size-primary));
+  line-height: calc(16 / 14);
   letter-spacing: var(--let-sp);
   text-transform: uppercase;
 }
 .features-text {
   font-size: var(--font-size-primary);
-  line-height: calc(24px / var(--font-size-primary));
+  line-height: calc(24 / 14);
   letter-spacing: var(--let-sp);
   color: var(--color-text-secondary);
 }
 .about-title {
   font-weight: 700;
   font-size: var(--section-title);
-  line-height: calc(42px / var(--section-title));
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: var(--let-sp);
 }
@@ -103,20 +106,20 @@ body {
 .team-title {
   font-weight: 700;
   font-size: var(--section-title);
-  line-height: calc(42px / var(--section-title));
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: var(--let-sp);
 }
 .team-name {
   font-weight: 500;
   font-size: var(--font-size-secondary);
-  line-height: calc(19px / var(--font-size-secondary));
+  line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: var(--let-sp);
 }
 .team-position {
   font-size: var(--font-size-secondary);
-  line-height: calc(19px / var(--font-size-secondary));
+  line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: var(--let-sp);
   color: var(--color-text-secondary);
@@ -128,7 +131,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: var(--font-size-secondary);
-  line-height: calc(26px / var(--font-size-secondary));
+  line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: var(--let-sp);
   color: var(--color-text-primary);
@@ -148,7 +151,7 @@ body {
 }
 .portfolio-type {
   font-size: var(--font-size-secondary);
-  line-height: calc(30px / var(--font-size-secondary));
+  line-height: calc(30 / 16);
   letter-spacing: var(--let-sp);
   color: var(--color-text-secondary);
 }
@@ -174,14 +177,14 @@ footer {
 }
 .footer-map {
   font-size: var(--font-size-primary);
-  line-height: calc(24px / var(--font-size-primary));
+  line-height: calc(24 / 14);
   letter-spacing: var(--let-sp);
   color: #ffffff;
 }
 .footer-mail,
 .footer-tel {
   font-size: var(--font-size-primary);
-  line-height: calc(24px / var(--font-size-primary));
+  line-height: calc(24 / 14);
   letter-spacing: var(--let-sp);
   color: rgba(255, 255, 255, 0.6);
 }
