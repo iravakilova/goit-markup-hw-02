@@ -42,11 +42,11 @@ body {
 .header-contact {
   color: var(--color-text-secondary);
 }
-.current {
-  color: var(--accent-color);
-}
 .header-item:hover,
 .header-item:focus {
+  color: var(--accent-color);
+}
+.current {
   color: var(--accent-color);
 }
 .hero {
