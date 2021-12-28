@@ -42,12 +42,12 @@ body {
 .header-contact {
   color: var(--color-text-secondary);
 }
+.current {
+  color: var(--accent-color);
+}
 .header-item:hover,
 .header-item:focus {
-  color: #2196f3;
-}
-.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .hero {
   background-color: var(--bg-secondary);
